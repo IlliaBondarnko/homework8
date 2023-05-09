@@ -1,0 +1,24 @@
+.line {
+  stroke: rgb(209, 0, 0);
+  fill: rgb(0, 0, 0);
+}
+
+body {
+    text-align: center
+}
+  
+
+.class_wheel_svg {
+    animation: wheel 1s linear infinite
+}
+  
+
+@keyframes wheel {
+    0% {
+        transform: rotate(0deg);;
+      }
+    100% {
+        transform: rotate(360deg);
+      } 
+}
+  
